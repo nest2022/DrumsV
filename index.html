@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Resumen del contenido de la página">
+    <title>Título de la página</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Estilos/normalize.css" type="text/css" />
+    <link rel="stylesheet" href="Estilos/estilo.css" type="text/css" />
+    <meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+    <header class="header">
+        <a class="header-img" href=""><img class="header-img__logo" src="assets/logo.jpg" alt=""></a>
+        <nav class="nav">
+            <a class="nav-list" href="juego.html">Juego</a>
+            <a class="nav-list" href="ejercicios.html">Ejercicios</a>
+            <a class="nav-list" href="">Comunidad</a>
+        </nav>
+        <a class="header-usuario" href="index.html"><img class="header-img__usuario" src="assets/usuario.png" alt=""></a>
+    </header>
+
+    <main class="contenido">
+        <section class="sect-inicio">   
+            <video autoplay loop>
+                <source src="assets/drums2.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+              </video>
+              <div class="sect-inicio__text">
+                <h1 class="inicio-h1">Empieza a jugar</h1>
+                <div>
+                    <a class="inicio-a" href="juego.html">
+                        <p class="inicio-p">Iniciar</p>
+                    </a>
+                </div>
+              </div>
+        </section>
+        <section class="sect-drum">
+            <div class="sect-drum__marcoImg">
+                <img id="image" class="sect-drum__img" src="assets/bateria.webp" alt="bateria">
+            </div>
+            <div id="selector1" class="item1"></div>
+            <dialog id="modal1" class="tom2">
+                <h2>Tom2</h2>
+                El Tom 2 es un tambor de percusión de tamaño mediano a grande que se monta en el set de 
+                batería generalmente a la derecha del baterista (desde su perspectiva detrás del kit), 
+                cerca del Tom 1. Tiene un diámetro más grande que el Tom 1 y, por lo tanto, tiende a 
+                producir un tono más profundo y resonante. Se utiliza para proporcionar variaciones 
+                tonales y ritmos en la música, complementando el Tom 1 y añadiendo profundidad y 
+                riqueza al sonido de la batería.
+            </dialog>
+
+            <div id="selector2" class="item2"></div>
+            <dialog id="modal2" class="tom1">
+                <h2>Tom1</h2>
+                El Tom 1 es un tambor de percusión de tamaño mediano que generalmente se monta en el 
+                set de batería cerca de la parte superior del bombo, a la izquierda del baterista (desde 
+                su perspectiva detrás del kit). Tiene un diámetro más pequeño que el Tom 2 y, por lo tanto, 
+                tiende a producir un tono más agudo y corto en comparación con el Tom 2. Se utiliza para 
+                agregar variaciones rítmicas y melódicas al sonido de la batería, a menudo proporcionando 
+                acentos y patrones de ritmo distintivos.
+            </dialog>
+
+            <div id="selector3" class="item3"></div>
+             <dialog id="modal3" class="tomP">
+                <h2>Tom de Piso</h2>
+                También conocido como "floor tom", es el tambor más grande de la batería después del
+                 bombo. Se coloca en el suelo mediante patas ajustables y generalmente tiene un tono 
+                 más profundo que los toms montados. Se utiliza para proporcionar ritmos y acentos más 
+                 bajos en la música.
+             </dialog>
+
+            <div id="selector4" class="item4"></div>
+             <dialog id="modal4" class="redoblante">
+                <h2>Redoblante</h2>
+                También llamado "snare drum", es un tambor de menor diámetro que el bombo y 
+                generalmente se coloca en un soporte entre las piernas del baterista. Tiene un 
+                juego de bordones debajo de la parte inferior de la piel que produce un sonido 
+                característico de cascabeleo cuando se golpea. Es versátil y se utiliza para crear 
+                ritmos y acentos, así como para proporcionar un golpe distintivo en la música.
+             </dialog>
+            
+            <div id="selector5" class="item5"></div>
+             <dialog id="modal5" class="bombo">
+                <h2>Bombo</h2>
+                También conocido como "bass drum" en inglés, 
+                es el tambor más grande de la batería. Se coloca en el suelo y se toca mediante 
+                un pedal que acciona un batidor. Produce un sonido grave y profundo que marca el pulso 
+                o ritmo básico de la música.
+            </dialog>
+
+            <div id="selector6" class="item6"></div>
+             <dialog id="modal6" class="splash">
+                <h2>Splash</h2>
+                Los platos de splash son platillos pequeños que producen un sonido brillante y rápido cuando 
+                se golpean. Se utilizan para efectos de acento rápidos y sutiles en la música.
+             </dialog>
+
+            <div id="selector7" class="item7"></div>
+             <dialog id="modal7" class="ride">
+                <h2>Ride</h2>
+                El plato de ride es un platillo grande y pesado que produce un sonido definido y sostenido 
+                cuando se golpea con la baqueta. Se utiliza principalmente para mantener un ritmo constante 
+                y proporcionar un sonido de conducción en la música. También se pueden utilizar para crear 
+                patrones rítmicos complejos y para solos de batería.
+             </dialog>
+
+            <div id="selector8" class="item8"></div>
+             <dialog id="modal8" class="clash">
+                <h2>Clash</h2>
+                Los platos de crash son platillos delgados que producen un sonido explosivo 
+                y de corta duración cuando se golpean con baquetas. Se utilizan para agregar 
+                impacto y énfasis en momentos específicos de la música, como cambios de sección 
+                o finales de frase.
+             </dialog>
+
+            <div id="selector9" class="item9"></div>
+             <dialog id="modal9" class="hithat">
+                <h2>HiHat</h2>
+                El hi-hat es un par de platillos montados en un soporte con un pedal que permite al 
+                baterista abrir y cerrar los platillos. Se utiliza principalmente para marcar el tiempo 
+                y proporcionar un ritmo constante en la música. También se pueden usar para crear patrones 
+                rítmicos complejos y efectos de sonido.
+             </dialog>
+
+        </section>
+    </main>
+    <!-- <footer> © pie de la página </footer> -->
+</body>
+<script src="Js/main.js"></script>
+
+</html>
